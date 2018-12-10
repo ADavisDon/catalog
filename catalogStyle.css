@@ -1,0 +1,47 @@
+body {
+	background-color: #44AA55;
+	font-family: Archivo;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h2 {
+	font-family: Alegreya;
+	font-style: italic;
+	font-size: 18px;
+}
+
+button {
+	font-weight: bold;
+	padding: 6px;
+	background-color: rgba(11,86,43,0.6);
+}
+
+input {
+	padding: 5px;
+}
+
+table {
+	text-align: center;
+	table-layout: auto;
+	border-collapse: collapse;
+	border: solid #0B562B;
+}
+
+th {
+	border: solid;
+	padding: 10px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+[class*="col"] {
+  float: left;
+  padding: 50px;
+  width: 33.33%;
+}
